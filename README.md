@@ -49,7 +49,7 @@ Abaixo você encontra tudo sobre como o bot funciona, como configurar e personal
 
 ## 1. Visão Geral do Bot
 
-O TED-BOT 4.9 é um bot para WhatsApp desenvolvido em Node.js, utilizando a biblioteca `@whiskeysockets/baileys`. Ele oferece funcionalidades de entretenimento, utilitários, moderação e automação para grupos.
+O TED-BOT 5.2 é um bot para WhatsApp desenvolvido em Node.js, utilizando a biblioteca `@whiskeysockets/baileys`. Ele oferece funcionalidades de entretenimento, utilitários, moderação e automação para grupos.
 
 ### 1.1. Como Funciona
 1.  **Inicialização (`temux.js`)**: Garante que o bot ligue corretamente e converte as bibliotecas necessárias.
@@ -62,7 +62,7 @@ Para mudar o nome do bot, o prefixo ou o dono, edite o arquivo `settings/config.
 
 ```json
 {
-  "prefix": "#",
+  "prefix": "!",
   "NomeDoBot": "TED-BOT",
   "NickDono": "彡[  TED  ]彡",
   "numerodono": "559984814822",
@@ -70,13 +70,13 @@ Para mudar o nome do bot, o prefixo ou o dono, edite o arquivo `settings/config.
 }
 ```
 
--   **`prefix`**: O símbolo para usar comandos (ex: `#`).
+-   **`prefix`**: O símbolo para usar comandos (ex: `!`).
 -   **`NomeDoBot`**: O nome que o bot terá.
 -   **`NickDono`**: Seu nome/apelido.
 -   **`numerodono`**: **Seu número de WhatsApp** (DDI+DDD+Número) para ter acesso aos comandos de dono.
 
 ## 3. Como Dar Dono ao Bot
-Basta colocar o seu número no campo `numerodono` dentro do `config.json`. Assim, você poderá usar o comando `#menudono`.
+Basta colocar o seu número no campo `numerodono` dentro do `config.json`. Assim, você poderá usar o comando `!menudono`.
 
 ## 4. Conexão e QR Code
 Ao ligar o bot pela primeira vez:
@@ -85,11 +85,11 @@ Ao ligar o bot pela primeira vez:
 3.  No seu WhatsApp, vá em `Aparelhos Conectados > Conectar com código` e digite o código que apareceu no terminal.
 
 ## 5. Menus de Comandos
--   **`#menu`**: Menu principal com todas as categorias.
--   **`#menuadm`**: Comandos para administradores de grupo.
--   **`#menudono`**: Comandos exclusivos para quem é dono do bot.
--   **`#brincadeiras`**: Rankings e ações divertidas entre membros.
--   **`#menulogos`**: Criação de logos personalizadas.
+-   **`!menu`**: Menu principal com todas as categorias.
+-   **`!menuadm`**: Comandos para administradores de grupo.
+-   **`!menudono`**: Comandos exclusivos para quem é dono do bot.
+-   **`!brincadeiras`**: Rankings e ações divertidas entre membros.
+-   **`!menulogos`**: Criação de logos personalizadas.
 
 ## 🌐 Hospedagem e Suporte
 
