@@ -33,7 +33,7 @@ termux-setup-storage
 
 ### 3. Baixar o Bot (Clone)
 ```bash
-cd /sdcard/Download && git clone https://github.com/TED-BOT-OFC/TED-BOT-V5 && cd /sdcard/Download/TED-BOT-V5
+cd /sdcard/Download && git clone https://github.com/TED-BOT-OFC/TED-BOT-V5.2 && cd /sdcard/Download/TED-BOT-V5.2
 ```
 
 ### 4. Ligar o Bot
@@ -117,7 +117,7 @@ Este projeto é destinado para fins de estudo, automação e uso pessoal. Use co
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&duration=3500&pause=700&color=0066FF&center=true&vCenter=true&width=850&lines=%E2%95%B0%E2%80%A2%E2%98%85+TED-BOT-V5+%E2%98%85%E2%80%A2%E2%95%AF;%F0%9F%9A%80+Obrigado+por+usar+o+projeto;%F0%9F%91%91+Criado+por+%40tedzinho" alt="Footer Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&duration=3500&pause=700&color=0066FF&center=true&vCenter=true&width=850&lines=%E2%95%B0%E2%80%A2%E2%98%85+TED-BOT-V5.2+%E2%98%85%E2%80%A2%E2%95%AF;%F0%9F%9A%80+Obrigado+por+usar+o+projeto;%F0%9F%91%91+Criado+por+%40tedzinho" alt="Footer Typing SVG" />
 
 <br>
 
