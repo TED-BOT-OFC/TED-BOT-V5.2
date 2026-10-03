@@ -1,4 +1,4 @@
-<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=00008b&center=falso&vCenter=falso&lines=🜛+𝐓𝐄𝐃-𝐁𝐎𝐓-𝐕5.2/+🜛;۞+𝙊𝙁𝘾+𝙐𝙋𝘿𝘼𝙏𝙀+۞;@𝙏𝙚𝙙𝙯𝙞𝙣𝙝𝙤">      
+<img src="https://readme-typing-svg.herokuapp.com/?font=mono&size=30&duration=4000&color=00008b&center=falso&vCenter=falso&lines=🜛+𝐓𝐄𝐃-𝐁𝐎𝐓-𝐕5.2+🜛;۞+𝙊𝙁𝘾+𝙐𝙋𝘿𝘼𝙏𝙀+۞;@𝙏𝙚𝙙𝙯𝙞𝙣𝙝𝙤">      
 
 <h1 align="center">
 <p>
@@ -11,7 +11,7 @@
 
 <p align="center">
 <img title="Autor" src="https://img.shields.io/badge/Autor-@tedzinho_-orange.svg?style=for-the-badge&logo=github"></a>
-<img title="Versão" src="https://img.shields.io/badge/Versão-5-orange.svg?style=for-the-badge&logo=github"></a>
+<img title="Versão" src="https://img.shields.io/badge/Versão-5.2-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 
 ---
@@ -49,7 +49,7 @@ Abaixo você encontra tudo sobre como o bot funciona, como configurar e personal
 
 ## 1. Visão Geral do Bot
 
-O TED-BOT 5.2 é um bot para WhatsApp desenvolvido em Node.js, utilizando a biblioteca `@whiskeysockets/baileys`. Ele oferece funcionalidades de entretenimento, utilitários, moderação e automação para grupos.
+O TED-BOT 5.2 é um bot para WhatsApp desenvolvido em Node.js, utilizando a biblioteca `@systemzero/baileys`. Ele oferece funcionalidades de entretenimento, utilitários, moderação e automação para grupos.
 
 ### 1.1. Como Funciona
 1.  **Inicialização (`temux.js`)**: Garante que o bot ligue corretamente e converte as bibliotecas necessárias.
