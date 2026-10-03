@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "fee": {
+    "min": 0.01,
+    "max": 0.1,
+    "base": 0.01,
+    "clientsAtMax": 1000
+  },
+  "pix": {
+    "minCents": 1,
+    "maxCents": 100000000000,
+    "cooldownMs": 2000,
+    "dailyLimitCents": 100000000000
+  },
+  "loans": {
+    "multiplier": 10,
+    "minCents": 10000,
+    "maxCents": 100000000000,
+    "maxInstallments": 12,
+    "minInstallments": 1,
+    "intervalMs": 60000,
+    "interestRate": 0.15,
+    "insufficientPolicy": "OVERDUE"
+  }
+}

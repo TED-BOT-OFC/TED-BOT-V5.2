@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "closeTime": "19:00",
+  "openTime": "20:00",
+  "groups": [],
+  "120363423756453394@g.us": {
+    "enabled": true,
+    "closeTime": "18:00",
+    "openTime": "06:00"
+  },
+  "120363423242451474@g.us": {
+    "enabled": true,
+    "closeTime": "00:00",
+    "openTime": "06:00"
+  },
+  "120363408687031303@g.us": {
+    "enabled": true,
+    "closeTime": "00:00",
+    "openTime": "06:00"
+  },
+  "120363428268402680@g.us": {
+    "enabled": true,
+    "closeTime": "00:00",
+    "openTime": "06:00"
+  },
+  "120363426596122841@g.us": {
+    "enabled": true,
+    "closeTime": "23:00",
+    "openTime": "07:00"
+  },
+  "120363408901099112@g.us": {
+    "enabled": true,
+    "closeTime": "03:00",
+    "openTime": "07:00"
+  }
+}

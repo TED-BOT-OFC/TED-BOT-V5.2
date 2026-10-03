@@ -1,0 +1,49 @@
+{
+  "players": {},
+  "banks": {
+    "nubank": {
+      "id": "nubank",
+      "name": "Nubank",
+      "description": "Banco digital popular",
+      "status": "ACTIVE",
+      "clients": 0,
+      "feeRate": 0.01
+    },
+    "mercado pago": {
+      "id": "mercado pago",
+      "name": "Mercado Pago",
+      "description": "Conta digital para o comércio",
+      "status": "ACTIVE",
+      "clients": 0,
+      "feeRate": 0.01
+    },
+    "inter": {
+      "id": "inter",
+      "name": "Banco Inter",
+      "description": "Banco digital completo",
+      "status": "ACTIVE",
+      "clients": 0,
+      "feeRate": 0.01
+    },
+    "brasil": {
+      "id": "brasil",
+      "name": "Banco do Brasil",
+      "description": "Banco tradicional",
+      "status": "ACTIVE",
+      "clients": 0,
+      "feeRate": 0.01
+    },
+    "bradesco": {
+      "id": "bradesco",
+      "name": "Bradesco",
+      "description": "Banco tradicional",
+      "status": "ACTIVE",
+      "clients": 0,
+      "feeRate": 0.01
+    }
+  },
+  "bankTransactions": [],
+  "bankAudit": [],
+  "loans": {},
+  "installments": {}
+}

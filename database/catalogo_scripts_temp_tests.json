@@ -1,0 +1,118 @@
+{
+  "projeto": {
+    "nome": "TED-VIP-V5",
+    "tipo": "Bot de WhatsApp em Node.js",
+    "arquivo_de_origem": "TED-VIP-V5.zip"
+  },
+  "estrutura_nova": {
+    "scripts": "database/scripts/",
+    "temp": "database/temp/",
+    "tests": "database/tests/"
+  },
+  "catalogo": {
+    "scripts": {
+      "finalidade": "Scripts auxiliares para manutenção, migração ou tarefas administrativas.",
+      "arquivos": [
+        {
+          "nome": "migrate_rpg_profile.js",
+          "caminho": "database/scripts/migrate_rpg_profile.js",
+          "tipo": "script de migração",
+          "funcao": "Migra perfis RPG antigos para o novo formato, incluindo jogadores, XP, dinheiro, saldo bancário e estatísticas de trabalho.",
+          "execucao": "npm run migrate:rpg"
+        }
+      ]
+    },
+    "temp": {
+      "finalidade": "Pasta para arquivos temporários de processamento.",
+      "vazia_no_zip_analisado": true,
+      "arquivos": []
+    },
+    "tests": {
+      "finalidade": "Testes automáticos do bot.",
+      "execucao_geral": "npm test",
+      "arquivos": [
+        {
+          "nome": "test_adverter.js",
+          "caminho": "database/tests/test_adverter.js",
+          "verifica": "Participantes, menções e advertências."
+        },
+        {
+          "nome": "test_audio_waveform.js",
+          "caminho": "database/tests/test_audio_waveform.js",
+          "verifica": "Waveform e duração de áudio."
+        },
+        {
+          "nome": "test_bank_system.js",
+          "caminho": "database/tests/test_bank_system.js",
+          "verifica": "Banco, depósitos, PIX, taxas e empréstimos."
+        },
+        {
+          "nome": "test_economy_core.js",
+          "caminho": "database/tests/test_economy_core.js",
+          "verifica": "Calendário, preços e comandos econômicos."
+        },
+        {
+          "nome": "test_mp3_conversion.js",
+          "caminho": "database/tests/test_mp3_conversion.js",
+          "verifica": "Conversão de áudio para Opus."
+        },
+        {
+          "nome": "test_noticias_command.js",
+          "caminho": "database/tests/test_noticias_command.js",
+          "verifica": "Comando de notícias."
+        },
+        {
+          "nome": "test_rpg_integration.js",
+          "caminho": "database/tests/test_rpg_integration.js",
+          "verifica": "Integração do sistema RPG."
+        },
+        {
+          "nome": "test_rpg_profile_service.js",
+          "caminho": "database/tests/test_rpg_profile_service.js",
+          "verifica": "Perfis, níveis, XP e migração RPG."
+        },
+        {
+          "nome": "test_sendcanal.js",
+          "caminho": "database/tests/test_sendcanal.js",
+          "verifica": "Envio para grupos e canais."
+        },
+        {
+          "nome": "test_sync_menu.js",
+          "caminho": "database/tests/test_sync_menu.js",
+          "verifica": "Sincronização entre economia e menu."
+        },
+        {
+          "nome": "test_timezone_brasilia.js",
+          "caminho": "database/tests/test_timezone_brasilia.js",
+          "verifica": "Horário e datas de Brasília."
+        },
+        {
+          "nome": "test_unified_wallet.js",
+          "caminho": "database/tests/test_unified_wallet.js",
+          "verifica": "Carteira, saldo e transferências."
+        },
+        {
+          "nome": "test_voice_payload.js",
+          "caminho": "database/tests/test_voice_payload.js",
+          "verifica": "Preparação de mensagem de voz."
+        },
+        {
+          "nome": "verify_rpg_coverage.js",
+          "caminho": "database/tests/verify_rpg_coverage.js",
+          "verifica": "Cobertura dos comandos RPG."
+        },
+        {
+          "nome": "verify_sync.js",
+          "caminho": "database/tests/verify_sync.js",
+          "verifica": "Sincronização dos módulos."
+        }
+      ]
+    }
+  },
+  "recomendacoes": {
+    "codigo_mantido_na_database": true,
+    "backup": "Fazer backup antes de executar migração ou testes.",
+    "proteger_sessao_whatsapp": "Não compartilhar database/qr/ted-qr/, pois contém dados da sessão do WhatsApp."
+  },
+  "gerado_em": "2026-10-02T21:53:15.175401+00:00"
+}

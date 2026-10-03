@@ -1,0 +1,46 @@
+[
+  {
+    "id": "150311708663964@lid",
+    "nome": "ted",
+    "idade": 45,
+    "dinheiro": 28068890,
+    "xp": 18,
+    "nivel": 1,
+    "pix": "77201863174@pix",
+    "carteiraBanco": 100000100,
+    "areaInvestimento": 1,
+    "empregos": 2,
+    "salarioBase": 10302,
+    "casas": [
+      "Palácio Real"
+    ],
+    "carros": [
+      "Rolls-Royce Phantom",
+      "Rolls-Royce Boat Tail"
+    ]
+  },
+  {
+    "id": "181054413500656@lid",
+    "nome": "chaves",
+    "idade": 17,
+    "dinheiro": 129549,
+    "xp": 61,
+    "nivel": 1,
+    "pix": "13525437407@pix",
+    "empregos": 6,
+    "salarioBase": 51110,
+    "preso": true,
+    "tempoPrisao": 3
+  },
+  {
+    "id": "123759834955914@lid",
+    "nome": "adrian",
+    "idade": 43,
+    "dinheiro": 210,
+    "xp": 13,
+    "nivel": 1,
+    "pix": "44793741679@pix",
+    "empregos": 1,
+    "salarioBase": 100
+  }
+]

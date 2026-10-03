@@ -1,0 +1,149 @@
+{
+  "120363426012582664@g.us": {
+    "p1": "195404553551928@lid",
+    "p2": "271597239820304@lid",
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "turn": "195404553551928@lid",
+    "status": "waiting",
+    "symbols": {
+      "195404553551928@lid": "❌",
+      "271597239820304@lid": "⭕"
+    }
+  },
+  "120363426760334022@g.us": {
+    "p1": "271597239820304@lid",
+    "p2": "207679570075804@lid",
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "turn": "271597239820304@lid",
+    "status": "waiting",
+    "symbols": {
+      "271597239820304@lid": "❌",
+      "207679570075804@lid": "⭕"
+    }
+  },
+  "120363410231037224@g.us": {
+    "p1": "218726158872771@lid",
+    "p2": "100661903524004@lid",
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "turn": "218726158872771@lid",
+    "status": "waiting",
+    "symbols": {
+      "218726158872771@lid": "❌",
+      "100661903524004@lid": "⭕"
+    }
+  },
+  "120363410298375806@g.us": {
+    "p1": "218726158872771@lid",
+    "p2": "215955837841662@lid",
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "turn": "218726158872771@lid",
+    "status": "waiting",
+    "symbols": {
+      "218726158872771@lid": "❌",
+      "215955837841662@lid": "⭕"
+    }
+  },
+  "120363409655980822@g.us": {
+    "p1": "215955837841662@lid",
+    "p2": "100661903524004@lid",
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "turn": "215955837841662@lid",
+    "status": "waiting",
+    "symbols": {
+      "215955837841662@lid": "❌",
+      "100661903524004@lid": "⭕"
+    }
+  },
+  "120363425643481261@g.us": {
+    "p1": "215955837841662@lid",
+    "p2": "105858914599067@lid",
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "turn": "215955837841662@lid",
+    "status": "waiting",
+    "symbols": {
+      "215955837841662@lid": "❌",
+      "105858914599067@lid": "⭕"
+    }
+  },
+  "120363424554791910@g.us": {
+    "p1": "98930914283540@lid",
+    "p2": "94820714471593@lid",
+    "board": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "turn": "98930914283540@lid",
+    "status": "waiting",
+    "symbols": {
+      "98930914283540@lid": "❌",
+      "94820714471593@lid": "⭕"
+    }
+  }
+}

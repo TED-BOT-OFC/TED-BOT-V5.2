@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "jobs": [
+    { "id": "auxiliar", "nome": "Auxiliar administrativo", "salario": 1500, "minLevel": 1, "minXp": 0, "xpMin": 5, "xpMax": 14 },
+    { "id": "vendedor", "nome": "Vendedor", "salario": 1900, "minLevel": 1, "minXp": 0, "xpMin": 5, "xpMax": 14 },
+    { "id": "motorista", "nome": "Motorista", "salario": 2400, "minLevel": 2, "minXp": 100, "xpMin": 5, "xpMax": 14 },
+    { "id": "eletricista", "nome": "Eletricista", "salario": 3200, "minLevel": 3, "minXp": 200, "xpMin": 5, "xpMax": 14 },
+    { "id": "mecanico", "nome": "Mecânico", "salario": 3500, "minLevel": 3, "minXp": 200, "xpMin": 5, "xpMax": 14 },
+    { "id": "professor", "nome": "Professor", "salario": 4200, "minLevel": 4, "minXp": 300, "xpMin": 5, "xpMax": 14 },
+    { "id": "designer", "nome": "Designer", "salario": 4800, "minLevel": 4, "minXp": 300, "xpMin": 5, "xpMax": 14 },
+    { "id": "programador", "nome": "Programador", "salario": 7000, "minLevel": 5, "minXp": 400, "xpMin": 5, "xpMax": 14 },
+    { "id": "contador", "nome": "Contador", "salario": 7500, "minLevel": 5, "minXp": 400, "xpMin": 5, "xpMax": 14 },
+    { "id": "engenheiro", "nome": "Engenheiro", "salario": 9500, "minLevel": 6, "minXp": 500, "xpMin": 5, "xpMax": 14 },
+    { "id": "advogado", "nome": "Advogado", "salario": 10500, "minLevel": 6, "minXp": 500, "xpMin": 5, "xpMax": 14 },
+    { "id": "medico", "nome": "Médico", "salario": 15000, "minLevel": 7, "minXp": 600, "xpMin": 5, "xpMax": 14 },
+    { "id": "diretor", "nome": "Diretor", "salario": 25000, "minLevel": 9, "minXp": 800, "xpMin": 5, "xpMax": 14 },
+    { "id": "investidor", "nome": "Investidor", "salario": 12000, "minLevel": 7, "minXp": 600, "xpMin": 5, "xpMax": 14 }
+  ]
+}

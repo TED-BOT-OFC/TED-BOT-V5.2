@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "xpPerLevel": 100,
+  "startingLevel": 1,
+  "formula": "linear",
+  "description": "Mantém a progressão legada: cada 100 XP globais geram um novo level."
+}

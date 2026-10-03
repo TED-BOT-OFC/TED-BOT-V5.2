@@ -1,0 +1,6 @@
+[03/10/2026, 00:00:14] [GROUP_SCHEDULER] [ATTEMPT] action=CLOSE group=120363423242451474@g.us brasiliaTime=00:00 closeTime=00:00 openTime=06:00
+[03/10/2026, 00:00:14] [GROUP_SCHEDULER] [ERROR] action=CLOSE group=120363423242451474@g.us brasiliaTime=00:00 closeTime=00:00 openTime=06:00 error=forbidden
+[03/10/2026, 00:00:14] [GROUP_SCHEDULER] [ATTEMPT] action=CLOSE group=120363408687031303@g.us brasiliaTime=00:00 closeTime=00:00 openTime=06:00
+[03/10/2026, 00:00:14] [GROUP_SCHEDULER] [ERROR] action=CLOSE group=120363408687031303@g.us brasiliaTime=00:00 closeTime=00:00 openTime=06:00 error=forbidden
+[03/10/2026, 00:00:14] [GROUP_SCHEDULER] [ATTEMPT] action=CLOSE group=120363428268402680@g.us brasiliaTime=00:00 closeTime=00:00 openTime=06:00
+[03/10/2026, 00:00:15] [GROUP_SCHEDULER] [ERROR] action=CLOSE group=120363428268402680@g.us brasiliaTime=00:00 closeTime=00:00 openTime=06:00 error=rate-overlimit
