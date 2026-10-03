@@ -1,15 +1,20 @@
 // ADICIONE ESTA LINHA NO TOPO do verificador.js
 const { numerodono, NickDono } = require("../../settings/config.json");
 
+function normalizarNumero(valor) {
+  if (typeof valor !== "string" && typeof valor !== "number" && typeof valor !== "bigint") return "";
+  return String(valor).replace(/[^0-9]/g, "");
+}
+
 async function verificarUsuario(sock, from, msg, prefix, BOT_PHONE) {
   const metadata = await sock.groupMetadata(from);
   const participants = metadata.participants;
 
   // ====== PEGA O NÚMERO REAL DO BOT ======
-  const botNumero = BOT_PHONE.replace(/[^0-9]/g, ""); // ex: "557398558638"
+  const botNumero = normalizarNumero(BOT_PHONE); // ex: "557398558638"
 
   // ====== IDENTIFICA O DONO DO BOT ======
-  const donoBotNumero = numerodono.replace(/[^0-9]/g, ""); // "557399791564"
+  const donoBotNumero = normalizarNumero(numerodono); // "557399791564"
   const nickDono = NickDono || "Dono do Bot";
 
   // ====== ACHA O PARTICIPANTE DO BOT NO GRUPO PELO NÚMERO ======
@@ -84,8 +89,8 @@ async function verificarUsuario(sock, from, msg, prefix, BOT_PHONE) {
     const isAdmin = alvoEncontrado.admin === 'admin' || alvoEncontrado.admin === 'superadmin';
     const isSuperAdmin = alvoEncontrado.admin === 'superadmin';
     
-    // ====== VERIFICA SE É O DONO DO BOT (MESMA LÓGICA DO ADM) ======
-    const numeroAlvoLimpo = numeroReal.replace(/[^0-9]/g, "");
+    // ====== VERIFICA SE O USUÁRIO É O DONO DO BOT (MESMA LÓGICA DO ADM) ======
+    const numeroAlvoLimpo = normalizarNumero(numeroReal);
     const isDonoBot = numeroAlvoLimpo === donoBotNumero;
 
     let mensagem = `🔍 *VERIFICAÇÃO DE USUÁRIO* 🔍\n\n`;
@@ -136,15 +141,15 @@ async function getVerificacao(sock, from, msg, prefixOrConfig, BOT_PHONE) {
     let realNickDono = NickDono;
 
     if (prefixOrConfig && typeof prefixOrConfig === 'object') {
-        if (prefixOrConfig.numerodono) realNumeroDono = prefixOrConfig.numerodono;
+        if (Object.prototype.hasOwnProperty.call(prefixOrConfig, 'numerodono')) realNumeroDono = prefixOrConfig.numerodono;
         if (prefixOrConfig.NickDono) realNickDono = prefixOrConfig.NickDono;
     }
 
     // PEGA O NÚMERO REAL DO BOT 
-    const botNumero = BOT_PHONE ? BOT_PHONE.replace(/[^0-9]/g, "") : "";
+    const botNumero = normalizarNumero(BOT_PHONE);
 
     // ====== IDENTIFICA O DONO DO BOT ======
-    const donoBotNumero = realNumeroDono ? realNumeroDono.replace(/[^0-9]/g, "") : "";
+    const donoBotNumero = normalizarNumero(realNumeroDono);
     const nickDono = realNickDono || "Dono do Bot";
 
     // ACHA O PARTICIPANTE DO BOT NO GRUPO 
@@ -173,14 +178,14 @@ async function getVerificacao(sock, from, msg, prefixOrConfig, BOT_PHONE) {
     if (senderParticipant && senderParticipant.phoneNumber) senderNumero = senderParticipant.phoneNumber;
     else if (senderId.includes('@s.whatsapp.net')) senderNumero = senderId.split('@')[0];
     
-    const senderNumeroLimpo = senderNumero ? senderNumero.replace(/[^0-9]/g, "") : "";
+    const senderNumeroLimpo = normalizarNumero(senderNumero);
     
     // Verificação por LID (Novo padrão do WhatsApp)
     // Se o sender for um LID, verificamos se ele corresponde ao participante que tem o número do dono
     let isLidDono = false;
     if (senderId.endsWith('@lid') && participants.length > 0) {
         const donoNoGrupo = participants.find(p => {
-            const pNum = (p.phoneNumber || p.id?.split('@')[0] || "").replace(/[^0-9]/g, "");
+            const pNum = normalizarNumero(p.phoneNumber || p.id?.split('@')[0] || "");
             return pNum === donoBotNumero || (pNum.length >= 8 && donoBotNumero.endsWith(pNum));
         });
         if (donoNoGrupo && donoNoGrupo.id === senderId) isLidDono = true;
